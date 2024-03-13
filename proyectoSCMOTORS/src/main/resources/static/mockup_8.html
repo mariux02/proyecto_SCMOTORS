@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC MOTORS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #dddddd;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            color: #333333;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: calc(100% - 12px);
+            padding: 6px;
+            border: 1px solid #999999;
+            border-radius: 4px;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .btn-container {
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            background-color: #333333;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555555;
+        }
+        .header {
+            background-color: #999999;
+            padding: 10px;
+            text-align: center;
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .tabs {
+            background-color: #cccccc;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .tabs button {
+            background-color: #aaaaaa;
+            color: #333333;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .tabs button:hover {
+            background-color: #bbbbbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SC MOTORS</h1>
+        <div class="tabs">
+            <button onclick="window.location.href='conozcanos.html'">Conózcanos</button>
+            <button onclick="window.location.href='perfil.html'"><img src="file:///C:/Users/USUARIO/Downloads/icono1.jpg" alt="Perfil"> Perfil</button>
+            <button onclick="window.location.href='registro.html'">Registrarse</button>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Registrarse</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="recibir_correos"> ¿Deseas recibir correos electrónicos con novedades de la página?
+                </label>
+            </div>
+            <div class="btn-container">
+                <button type="submit">Confirmar</button>
+                <button type="button" onclick="window.location.href='cancelar.html'">Cancelar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
