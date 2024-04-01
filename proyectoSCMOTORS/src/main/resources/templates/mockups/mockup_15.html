@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SC MOTORS</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                max-width: 800px;
+                margin: 50px auto;
+            }
+            h1 {
+                text-align: center;
+                color: #333333;
+            }
+            .car-list {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                margin-top: 20px;
+            }
+            .car {
+                background-color: #dddddd;
+                border-radius: 10px;
+                padding: 10px;
+                text-align: center;
+            }
+            .car img {
+                max-width: 100%;
+                border-radius: 5px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+            }
+            .footer button {
+                background-color: #aaaaaa;
+                color: #333333;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 10px;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+            .footer button:hover {
+                background-color: #bbbbbb;
+            }
+            .logo{
+
+                font-weight: bold;
+                font-size: 24px;
+            }
+
+            .menu {
+                background-color: black;
+                color: white;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width:100%;
+            }
+            .tabs {
+                background-color: #666666;
+                padding: 10px;
+                border-radius: 4px;
+            }
+            .tabs button {
+                background-color: #555555;
+                color: #ffffff;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 10px;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+            .tabs button:hover {
+                background-color: #777777;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="logo">SC MOTORS</div>
+            <div class="tabs">
+                <button onclick="window.location.href = 'mockup_1.html'">Conózcanos</button>
+                <button onclick="window.location.href = 'mockup_16.html'"><img class ="icono1" src="img/icono1.jpg" alt="Perfil"> Perfil</button>
+                <button onclick="window.location.href = 'mockup_8.html'">Registrarse</button>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Autos en Venta</h2>
+            <div class="car-list">
+                <div class="car">
+                    <img class ="carro4" src="img/Carro4.jpg" alt="Carro 4">
+                    <p>Marca: Isuzu</p>
+                    <p>Modelo: Isuzu Dmax - 2017</p>
+                    <p>Precio: $26.164</p>
+                </div>
+                <div class="car">
+                    <img class ="carro5" src="img/Carro5.jpg" alt="Carro 5">
+                    <p>Marca: Isuzu</p>
+                    <p>Modelo: Isuzu NLR 2018</p>
+                    <p>Precio: $25.027</p>
+                </div>
+                <div class="car">
+                    <img class ="carro6" src="img/Carro6.jpg" alt="Carro 6">
+                    <p>Marca: Isuzu</p>
+                    <p>Modelo: Isuzu NQR 2017</p>
+                    <p>Precio: $37.351</p>
+                </div>
+                <!-- Aquí puedes agregar más autos en venta -->
+            </div>
+        </div>
+        <div class="footer">
+             <a href="mockup_14.html"></a><button>Anterior</button>
+             <a href="mockup_14.html"></a><button>1</button>
+             <a href="mockup_15.html"></a><button>2</button>
+        </div>
+    </body>
+</html>

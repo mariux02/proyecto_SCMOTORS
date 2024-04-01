@@ -2,8 +2,8 @@
 
 .boton{
     font-size: 12px; /*tamaño letra */
-    padding: 5px 10px;  /*relleno*/
-    border-radius: 5px;  /*borde*/
+    padding: 3px 6px;  /*relleno*/
+    border-radius: 10px;  /*borde*/
     background-color: gray;  
     color: white;
     border: none;
@@ -17,7 +17,7 @@
     font-size: 12px; /* Tamaño de la letra */
     padding: 3px 12px; /* Relleno */
     border-radius: 10px; /* Bordes redondos */
-    background-color: #9C070C; /* Color de fondo rojo */
+    background-color: red; /* Color de fondo rojo */
     color: white; /* Color del texto */
     border: none;
     margin-top: 9px; /* Margen superior */
