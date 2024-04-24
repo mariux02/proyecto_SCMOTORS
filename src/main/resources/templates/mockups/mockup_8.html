@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC MOTORS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D3D3D3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        .navbar {
+            background-color: #808080; /* Cambiado a gris */
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #FFFAF0;
+            margin-right: auto;
+        }
+
+        .navbar div {
+            color: #FFFAF0;
+            padding: 5px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar div:hover {
+            background-color: #414141;
+        }
+
+        .content {
+            width: 400px;
+            padding: 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .form-title {
+            background-color: #F5FFFA;
+            color: #2F302A;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        .form-box {
+            background-color: #2F302A;
+            padding: 20px;
+        }
+
+        .form-input {
+            background-color: #545450;
+            color: #E1E3DC;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding: 10px;
+            width: calc(100% - 20px);
+        }
+
+        .checkbox, .checkbox label {
+            color: #E1E3DC;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .checkbox input {
+            margin-right: 5px;
+        }
+
+        .button {
+            background-color: #545450;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 0 5px;
+            width: auto;
+        }
+
+        .button:hover {
+            background-color: #6C6F66;
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">SC MOTORS</div>
+        <div>Conózcanos</div>
+        <div>Ingresar</div>
+        <div>Registrarse</div>
+    </div>
+    <div class="content">
+        <div class="form-title">Registrarse</div>
+        <div class="form-box">
+            <input type="text" class="form-input" placeholder="Nombre:">
+            <input type="text" class="form-input" placeholder="Teléfono:">
+            <input type="email" class="form-input" placeholder="Correo:">
+            <input type="password" class="form-input" placeholder="Contraseña:">
+            <div class="checkbox">
+                <input type="checkbox" id="newsletter">
+                <label for="newsletter">¿Desea recibir correos electrónicos sobre novedades de la página?</label>
+            </div>
+           <div class="buttons-container">
+    <button type="submit" class="button">Confirmar</button>
+    <button type="button" class="button">Cancelar</button>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>

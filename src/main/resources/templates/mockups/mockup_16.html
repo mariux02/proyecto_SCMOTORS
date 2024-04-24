@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SC MOTORS</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                max-width: 800px;
+                margin: 60px auto;
+                padding: 20px;
+                background-color: gray;
+                border-radius: 10px;
+            }
+            h1 {
+                text-align: center;
+                color: #333333;
+            }
+
+
+            .boton{
+                font-size: 12px; /*tamaño letra */
+                padding: 3px 6px;  /*relleno*/
+                border-radius: 10px;  /*borde*/
+                background-color: gray;
+                color: white;
+                border: none;
+                margin-top: 9px;  /*margen de centrado*/
+                margin-right: 30px; /*margen de que tan pegado a la derecha*/
+                float: right;
+            }
+
+            .botonrojo{
+
+                font-size: 12px; /* Tamaño de la letra */
+                padding: 3px 12px; /* Relleno */
+                border-radius: 10px; /* Bordes redondos */
+                background-color: #B22222; /* Color de fondo rojo */
+                color: white; /* Color del texto */
+                border: none;
+                margin-top: 9px; /* Margen superior */
+                margin-right: 20px; /* Margen derecho */
+                position: fixed; /* Fija el botón en la parte inferior */
+                bottom: 10px; /* Distancia desde la parte inferior */
+                right: 10px; /* Distancia desde el lado derecho */
+            }
+
+            .titulo strong{
+                text-align: left;
+                background-color: black;
+                color: white;
+                margin-top: 9px;
+                margin-left: 12px;
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            .profile-section {
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+            }
+            .profile-section img {
+                max-width: 100px;
+                border-radius: 50%;
+                margin-right: 20px;
+            }
+            .profile-details {
+                width: 300px; /* Ancho del cuadro */
+                height: 200px; /* Altura del cuadro */
+                background-color: gray; /* Color de fondo gris */
+                border-radius: 12px; /* Bordes redondos */
+                padding: 9px; /* Espacio interno */
+                margin: 15px auto;
+            }
+            .profile-details h2 {
+                margin-top: 0;
+
+                color: white;
+            }
+            .profile-details p {
+                margin-bottom: 10px;
+                text-align: center;
+                color: white;
+            }
+
+            .profile-heading {
+                color: red; /* Color rojo para el texto */
+                text-align: left; /* Alinear a la izquierda */
+                position: relative; /* Posicionamiento relativo */
+                top: -30px; /* Ajuste vertical para superponerlo encima */
+                left: 600px; /* Ajuste horizontal para alinearlo a la izquierda */
+                margin-bottom: -40px; /* Ajuste para superponerlo encima del cuadro */
+                margin-top: 0; /* Eliminar margen superior */
+                margin-right: 0; /* Eliminar margen derecho */
+                font-size: 10px;
+            }
+
+            .circle {
+                width: 50px; /* Ancho del círculo */
+                height: 50px; /* Altura del círculo */
+                border: 2px solid white; /* Borde blanco */
+                border-radius: 50%; /* Para hacerlo circular */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative; /* Posicionamiento relativo */
+                margin: 0 auto; /* Margen automático para centrarlo horizontalmente */
+                margin-top: 20px; /* Margen superior para centrarlo verticalmente */
+            }
+
+
+            .plus {
+                color: white; /* Color del símbolo de suma */
+                font-size: 30px; /* Tamaño del símbolo de suma */
+            }
+
+            .juan{
+                margin-top: -60px;
+                margin-left: 450px;
+                color: #B22222;
+            }
+
+            .circle2 {
+                width: 70px;
+                height: 70px;
+                border: 2px solid gray; /* Cambiamos el borde blanco por gris */
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                margin: 0 auto;
+                background-color: white; /* Establecemos el fondo del círculo como blanco */
+                margin-top: -90px;
+                margin-left: 360px;
+                margin-bottom: -20px;
+            }
+
+            .circle2 img {
+                width: 40px; /* ajusta el tamaño de la imagen según sea necesario */
+                height: 40px;
+            }
+
+
+            .circle3 {
+                width: 30px;
+                height: 30px;
+                border: 2px solid gray; /* Cambiamos el borde blanco por gris */
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                margin: 0 auto;
+                background-color: white; /* Establecemos el fondo del círculo como blanco */
+                margin-top: 60px;
+                margin-left: -70px;
+                margin-bottom: -20px;
+            }
+
+            .circle3 img {
+                 width: 20px; /* ajusta el tamaño de la imagen según sea necesario */
+                height: 20px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 style=" font-size: 24px;font-family: Arial, sans-serif; margin: 0;
+                padding: 0;background-color: black; height: 4vh;position: relative;
+                color: white; display: flex;justify-content: space-between;align-items: center;
+                padding: 10px 20px; position: absolute; top: 0; left: 0; width: 100%; " 
+                class="titulo"><strong>SC MOTORS</strong>
+                <a href="mockup_1.html"><input type="submit" value="Conózcanos" name="boton conózcanos" class="boton"/></a>
+        </header>
+        <div class="container">
+            <div class="circle">
+                <div class="plus">+</div>
+            </div>
+            <h2 style="text-align: center; font-size: 10px; color: white">Agrega una imagen de portada</h2>
+
+        </div>
+
+        <div class="circle2">
+            <img src="../../static/img/perfil.jpg" alt=""/>
+        </div>
+        <div class="juan">
+
+            <h3>Juanito Pérez</h3>
+        </div>
+
+        <br>
+        <div class="profile-heading">
+
+            <div class="circle3">
+                <img src="../../static/img/perfil.jpg" alt=""/>
+            </div>
+            <h3 style="color: #B22222; margin-top: -10px; margin-left: -30px;">Sobre tí</h3>
+
+        </div>
+        <div class="profile-section">
+
+            <div class="profile-details"ac>
+                <h2 style="text-align: center">Tus datos</h2>
+                <hr style="border-top: 1px solid black; margin: 10px 0; box-shadow: none;">
+                <p> Nombre: Juanito Pérez</p>
+                <p> Teléfono: 88990033</p>
+                <p> Correo: Juanito@gmail.com</p>
+            </div>
+        </div>
+
+        <footer>
+            <h1>
+                <a href="mockup_15.html"><input type="submit" value="Atrás" name="boton atras" class="botonrojo"/></a>
+            </h1>
+        </footer>
+
+    </body>
+</html>

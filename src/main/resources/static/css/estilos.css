@@ -1,0 +1,51 @@
+.boton{
+    font-size: 12px; /*tamaño letra */
+    padding: 3px 6px;  /*relleno*/
+    border-radius: 10px;  /*borde*/
+    background-color: gray;  
+    color: white;
+    border: none;
+    margin-top: 9px;  /*margen de centrado*/
+    margin-right: 30px; /*margen de que tan pegado a la derecha*/
+    float: right;
+}
+
+.botonrojo{
+    
+    font-size: 12px; /* Tamaño de la letra */
+    padding: 3px 12px; /* Relleno */
+    border-radius: 10px; /* Bordes redondos */
+    background-color: red; /* Color de fondo rojo */
+    color: white; /* Color del texto */
+    border: none;
+    margin-top: 9px; /* Margen superior */
+    margin-right: 20px; /* Margen derecho */
+    position: fixed; /* Fija el botón en la parte inferior */
+    bottom: 10px; /* Distancia desde la parte inferior */
+    right: 10px; /* Distancia desde el lado derecho */
+}
+
+.titulo strong{
+    text-align: left; 
+    background-color: black; 
+    color: white;
+    margin-top: 9px;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cuadro {
+    width: 700px; /* Ancho del cuadro */
+    height: 300px; /* Altura del cuadro */
+    background-color: gray; /* Color de fondo gris */
+    border-radius: 12px; /* Bordes redondos */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Texto centrado */
+    margin: 0 auto; /* Centra el cuadro horizontalmente */
+    margin-top: 120px; /* Espacio superior para separar del borde superior */
+}
+
+.cuadro p {
+    color: white; /* Color de texto blanco */
+}
